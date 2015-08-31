@@ -1,0 +1,32 @@
+{
+  "name": "bonaparte-slideshow",
+  "version": "0.0.1",
+  
+  "dependencies" : {
+    "bonaparte" : "file:../bonaparte"
+  },
+  
+  "main":"bonaparte.js",
+
+  "devDependencies": {
+    "webpack" : "^1.11.0",
+    "style-loader" : "^0.12.3",
+    "css-loader" : "^0.16.0",
+    "less-loader" : "^2.2.0",
+    "less" : "^2.3.1",
+    "extract-text-webpack-plugin" : "0.8.2",
+    "autoprefixer-loader" : "^2.0.0",
+    "raw-loader":"^0.5.1",
+    "null-loader" :"0.1.1"
+  },
+
+  "scripts": {
+    "build" : "webpack",
+    "build-prod" : "webpack -p",
+    "watch" : "webpack --progress --colors --watch"
+  },
+
+  "engines": {
+    "node": ">=0.12.x"
+  }
+}
