@@ -16,3 +16,9 @@ slideshow-bonaparte > .active {
   visibility: visible;
 }
 /*///////////////////////////////////////////////////////////////////////////*/
+/*require("include!./src/less/bonaparte-slideshow.less");
+
+slideshow-bonaparte {  
+  .slideshow-bonaparte();
+}
+*/

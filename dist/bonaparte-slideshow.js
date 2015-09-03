@@ -44,12 +44,20 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(2).register(); __webpack_require__(13);
+	__webpack_require__(2).register();
+	__webpack_require__(13);
 
 /***/ },
 /* 1 */,
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
+
+	/*
+	 * This file should export the result of 
+	 * require("bonaparte").tag.create()
+	 * or
+	 * require("bonaparte").mixin.create()
+	 */
 
 	module.exports = __webpack_require__(3);
 
