@@ -3,7 +3,7 @@
   "version": "0.0.1",
   
   "dependencies" : {
-    "bonaparte" : "file:../bonaparte"
+    "bonaparte" : "git://github.dowjones.net/bonaparte/bonaparte.git#gh-pages"
   },
   
   "main":"bonaparte.js",
