@@ -86,10 +86,9 @@
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(__dirname, __filename) {var objct = __webpack_require__(5);
+	var objct = __webpack_require__(5);
 	var bp = __webpack_require__(7);
 
-	console.log("test", __dirname, __filename);
 	///////////////////////////////////////////////////////////////////////////////
 	// Polyfills
 
@@ -246,7 +245,6 @@
 	///////////////////////////////////////////////////////////////////////////////
 
 
-	/* WEBPACK VAR INJECTION */}.call(exports, "/", "/index.js"))
 
 /***/ },
 /* 5 */
