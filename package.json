@@ -2,12 +2,11 @@
   "name": "bonaparte-slideshow",
   "version": "0.0.1",
   "dependencies": {
-    "bonaparte": "git+https://git@github.dowjones.net/newsroomdevelopment/bonaparte.git#gh-pages"
+    "bonaparte": "git+https://bonaparte-read:5913bd3907acbcb3e20356f56992024c7213d854@github.com/bonaparte/bonaparte.git#gh-pages"
   },
   "main": "bonaparte.js",
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
-    "bonaparte": "git+https://git@github.dowjones.net/newsroomdevelopment/bonaparte.git#gh-pages",
     "css-loader": "^0.16.0",
     "extract-text-webpack-plugin": "0.8.2",
     "less": "^2.3.1",
