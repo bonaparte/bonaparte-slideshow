@@ -4,7 +4,7 @@
   "dependencies": {
     "bonaparte": "git+https://bonaparte-read:1437a4a436df422163cb58030e6fc8ab570c11e1@github.com/bonaparte/core.git#gh-pages"
   },
-  "main": "bonaparte.js",
+  "main": "bonaparte.build.js",
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
     "css-loader": "^0.16.0",
